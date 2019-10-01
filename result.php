@@ -16,7 +16,7 @@
 </form>
 <!-- </div> -->
 <div class="form">
-<?php echo calfib($_POST["number"]); ?>
+<?php echo calculateFib($_POST["requestedNumber"]); ?>
 </div>
 
 
@@ -33,7 +33,7 @@
 
 
 
-function calfib($until) {
+function calculateFib($until) {
   if ($until == 1) {
     require 'post.php';
     echo "0";

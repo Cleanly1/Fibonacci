@@ -12,7 +12,7 @@
 
 <div class="form">
 <form action="result.php" method="post">
-  <input name="number" type="number">
+  <input name="requestedNumber" type="number">
   <button type="submit">Submit</button>
 </form>
 </div>
