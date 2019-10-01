@@ -6,7 +6,9 @@
 </head>
 <body>
   <header>
+  <div class="box">
     <h1>The Fibonacci Numbers</h1>
+    </div>
   </header>
 
 
