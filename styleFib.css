@@ -1,0 +1,25 @@
+header{
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+.back {
+  text-decoration: none;
+  text-align: center;
+}
+.but {
+  text-align: center;
+
+}
+body {
+  background-color: darkseagreen;
+  font-family:monospace;
+
+}
+/* .centerBut {
+  text-align: center;
+  background-color: gray;
+
+} */
