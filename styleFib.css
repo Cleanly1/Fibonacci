@@ -27,53 +27,12 @@ body {
 
   .button:hover {
   transform:  scale(1.2)
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 
 
 .rainbow {
-
-  margin-top: 10px;
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
+    margin-top: 10px;
+  }
 
 @keyframes backg {
   0%   {background-color: #FF0000;}
