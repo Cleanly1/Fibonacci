@@ -1,7 +1,7 @@
 <?php
 
 function posting () {
-echo 'Your ' . $_POST["number"] . ' Fibonacci numbers are: <br>';
+echo 'Your ' . $_POST["requestedNumber"] . ' Fibonacci numbers are: <br>';
 };
 
 posting();

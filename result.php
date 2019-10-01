@@ -16,13 +16,18 @@
 </form>
 <!-- </div> -->
 <div class="form">
-<?php echo calculateFib($_POST["requestedNumber"]); ?>
+  <button onclick="madness()" class="rainbow">Click to start the rainbow</button>
+  <button onclick="stopMadness()" class="rainbow" >Click to stop the rainbow</button>
+<br><?php echo calculateFib($_POST["requestedNumber"]); ?>
 </div>
 
 
 
 
-<!--  Always put the <script> last just before </body> -->
+
+<script type="text/javascript" src="scriptFibonacci.js">
+
+</script>
 </body>
 </html>
 
