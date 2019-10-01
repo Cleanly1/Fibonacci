@@ -1,14 +1,4 @@
-<html>
-
-<head>
-  <link rel="stylesheet" type="text/css" href="styleFib.css">
-    <title>Result</title>
-</head>
-<body>
-  <header>
-    <h1>The Fibonacci Numbers</h1>
-
-</header>
+<?php require __DIR__ . "/header.php"; ?>
 
 <!-- <div class="centerBut" -->
 <form class="but" action="startSite.php">
@@ -23,13 +13,7 @@
 
 
 
-
-
-<script type="text/javascript" src="scriptFibonacci.js">
-
-</script>
-</body>
-</html>
+<?php require __DIR__ . '/footer.php'; ?>
 
 
 
