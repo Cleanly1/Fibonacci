@@ -27,6 +27,7 @@ body {
 
   .button:hover {
   transform:  scale(1.2)
+
   }
 
 
@@ -63,12 +64,12 @@ body {
 
 
 
+    }
 
 
-
-
-
-
+.rainbow {
+    margin-top: 10px;
+  }
 
 @keyframes backg {
   0%   {background-color: #FF0000;}
@@ -117,4 +118,3 @@ body {
 0%  {color:#FF0000;}
 
 }
-
