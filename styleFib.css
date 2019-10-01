@@ -21,13 +21,14 @@ body {
 
   .button {
     border: 2px solid darkslategray;
-    cursor: pointer; 
+    cursor: pointer;
     transition: 400ms ease;
   }
-  
+
   .button:hover {
   transform:  scale(1.2)
   }
+
 
   .style {
     
@@ -47,3 +48,73 @@ body {
     align-items: center;
     justify-content: center;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes backg {
+  0%   {background-color: #FF0000;}
+  5%   {background-color: #FE0E00;}
+  10%   {background-color: #FD1F00;}
+  15%   {background-color: #FC3500;}
+  20%  {background-color: #FA4F00;}
+  25%  {background-color: #F76E00;}
+  30%   {background-color: #F59200;}
+  35%   {background-color: #F1BC00;}
+  40%  {background-color: #EDEC00;}
+  45%  {background-color: #B0E900;}
+  50%  {background-color: #6BE400;}
+  55%  {background-color: #1FDE00;}
+  60%   {background-color: #00D732;}
+  65%   {background-color: #00CF87;}
+  70%   {background-color: #00B3C7;}
+  75%   {background-color: #0050BD;}
+  80% {background-color: #0D00B3;}
+  85% {background-color: #6000A9;}
+  90% {background-color: #9E0094;}
+  100% {background-color: #FF0000;}
+
+}
+/* Adds the rainbow effect for the h1 and h2 tag */
+@keyframes colorT {
+100%    {color:#FF0000;}
+95%    {color:#FE0E00;}
+90%   {color:#FD1F00;}
+85%   {color:#FC3500;}
+80%   {color:#FA4F00;}
+75%   {color:#F76E00;}
+70%   {color:#F59200;}
+65%   {color:#F1BC00;}
+60%   {color:#EDEC00;}
+55%   {color:#B0E900;}
+50%   {color:#6BE400;}
+45%   {color:#1FDE00;}
+40%   {color:#00D732;}
+35%   {color:#00CF87;}
+30%   {color:#00B3C7;}
+25%   {color:#0050BD;}
+20%   {color:#0D00B3;}
+15%   {color:#6000A9;}
+10%   {color:#9E0094;}
+0%  {color:#FF0000;}
+
+}
+
