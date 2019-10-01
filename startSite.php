@@ -6,7 +6,7 @@
 </head>
 <body>
   <header>
-  <div class="box">
+  <div class="style">
     <h1>The Fibonacci Numbers</h1>
     </div>
   </header>
@@ -15,7 +15,8 @@
 <div class="form">
 <form action="result.php" method="post">
   <input name="requestedNumber" type="number">
-  <button type="submit">Submit</button>
+
+  <button class="button" type="submit">Submit</button>
 
 </form>
 <button onclick="madness()" class="rainbow">Click to start the rainbow</button>
