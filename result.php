@@ -12,7 +12,7 @@
 
 <!-- <div class="centerBut" -->
 <form class="but" action="startSite.php">
-    <input type="submit" value="Want new numbers?" />
+    <input class="button" type="submit" value="Want new numbers?" />
 </form>
 <!-- </div> -->
 <div class="form">
