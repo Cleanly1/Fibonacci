@@ -1,5 +1,5 @@
-<script type="text/javascript" src="scriptFibonacci.js">
+    <script type="text/javascript" src="scriptFibonacci.js">
 
-</script>
-</body>
+    </script>
+  </body>
 </html>
