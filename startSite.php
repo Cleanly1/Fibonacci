@@ -2,13 +2,13 @@
 
 
 <div class="form">
-<form action="result.php" method="post">
-  <input name="requestedNumber" type="number" id="inputField">
-  <button id="submitButton" class="button" type="submit">Submit</button>
+  <form action="result.php" method="post">
+    <input name="requestedNumber" type="number" id="inputField">
+    <button  class="rainbowButton button" type="submit">Submit</button>
 
-</form>
-<button onclick="madness()" class="rainbow">Click to start the rainbow</button>
-<button onclick="stopMadness()" class="rainbow">Click to stop the rainbow</button>
+  </form>
+  <button class="rainbowButton rainbow" onclick="madness()" >Click to start the rainbow</button>
+  <button class="rainbowButton rainbow" onclick="stopMadness()" >Click to stop the rainbow</button>
 </div>
 
 
