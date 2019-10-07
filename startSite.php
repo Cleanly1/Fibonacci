@@ -4,7 +4,7 @@
 <div class="form">
   <form action="result.php" method="post">
     <input name="requestedNumber" type="number" id="inputField">
-    <button  class="rainbowButton button" type="submit">Submit</button>
+    <button class="rainbowButton button" type="submit">Submit</button>
 
   </form>
   <button class="rainbowButton rainbow" onclick="madness()" >Click to start the rainbow</button>
