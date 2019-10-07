@@ -17,12 +17,12 @@ var isMadnessRunning;
   function stopMadness() {
     isMadnessRunning = false;
     var allButtons = document.getElementsByClassName("rainbowButton");
-    document.body.style.animation = "none";
-    document.getElementsByClassName("headStyle")[0].style.animation = "none";
+    document.body.style.animation = "paused";
+    document.getElementsByClassName("headStyle")[0].style.animation = "paused";
       for (var i = 0; i < allButtons.length; i++) {
-      allButtons[i].style.animation = "inherit";
+      allButtons[i].style.animation = "paused";
     }
-    document.getElementById('inputField').style.animation = "none";
+    document.getElementById('inputField').style.animation = "paused";
     };
 
 window.addEventListener("onload", runningCheck());
