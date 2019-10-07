@@ -4,7 +4,7 @@
       <button class="rainbowButton button" type="submit">Want new numbers?</button>
   </form>
   <div class="form">
-    <button onclick="madnessres()" class="rainbowButton rainbow">Click to start the rainbow</button>
+    <button onclick="madness()" class="rainbowButton rainbow">Click to start the rainbow</button>
     <button onclick="stopMadness()" class="rainbowButton rainbow">Click to stop the rainbow</button>
     <br><br><?php echo calculateFib($_POST["requestedNumber"]); ?>
   </div>
