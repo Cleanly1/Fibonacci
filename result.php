@@ -20,16 +20,13 @@
   function calculateFib($until) {
     if ($until == 1) {
       require 'post.php';
-      echo "0";
-    };
-    if ($until == 2) {
+      return "0";
+    }elseif ($until == 2) {
       require 'post.php';
-      echo "0 <br> 1";
-    };
-    if ($until == 0) {
-      echo "You pick zero and you get zero";
-    };
-    if ($until > 2 && $until <= 1000) {
+      return "0 <br> 1";
+    }elseif ($until == 0) {
+      return "You pick zero and you get zero";
+    }elseif ($until > 2 && $until <= 1000) {
       $fib = 1;
       $lastFib = 0;
       require 'post.php';
@@ -43,8 +40,7 @@
         $fib = $totalFib;
         };
 
-      };
-    if ($until > 1000)  {
+      }elseif ($until > 1000)  {
       $fib = 1;
       $lastFib = 0;
       echo "Your requested number is to big, you only get 1000 Fibonacci numbers: <br>";
