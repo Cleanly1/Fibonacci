@@ -7,3 +7,6 @@ In mathematics, the Fibonacci numbers, commonly denoted Fn form a sequence, call
 All hail Leonardo Fibonacci, our lord and saviour. He was considered to be the most talented Western mathematician of the Middle Ages.
 
 Fibonacci himself was born in 1170 in Pisa and died 1250. 
+
+
+## Happy Hacktober
