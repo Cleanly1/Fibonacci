@@ -5,7 +5,7 @@
 // var isMadnessRunning = new Boolean(true);
 
 function madness() {
-  // isMadnessRunning = true;
+
   var allButtons = document.getElementsByClassName("rainbowButton");
   document.body.style.animation = "backg 1s infinite";
   document.getElementsByClassName("headStyle")[0].style.animation = "colorT 1s infinite";
@@ -16,7 +16,7 @@ function madness() {
 };
 
 function stopMadness() {
-  // isMadnessRunning = false;
+
   var allButtons = document.getElementsByClassName("rainbowButton");
   document.body.style.animation = "paused";
   document.getElementsByClassName("headStyle")[0].style.animation = "paused";
@@ -26,12 +26,12 @@ function stopMadness() {
   document.getElementById('inputField').style.animation = "paused";
 };
 
-
-// function runningCheck(){
-//   if (isMadnessRunning == true){
-//     madness()
-//   }
-//   else if (isMadnessRunning == false) {
-//     console.log("hej");
-//   }
-// }
+const randomBackground = function(){
+  const rgb1 = Math.floor(Math.random() * (255 - 0 + 1)) + 0;
+  const rgb2 = Math.floor(Math.random() * (255 - 0 + 1)) + 0;
+  const rgb3 = Math.floor(Math.random() * (255 - 0 + 1)) + 0;
+  if (window.scrollY > 500) {
+    document.body.style.backgroundColor = `rgb( ${rgb1}, ${rgb2}, ${rgb3})`;
+  }
+}
+window.onscroll = setInterval(randomBackground, 1000);
