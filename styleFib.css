@@ -75,6 +75,16 @@ header {
   transform:  scale(1.1)
 }
 
+.result {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  width: 100vw;
+
+}
+
 @keyframes backg {
   0%   {background-color: #FF0000;}
   5%   {background-color: #FE0E00;}

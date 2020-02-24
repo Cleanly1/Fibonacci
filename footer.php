@@ -1,5 +1,6 @@
-    <script type="text/javascript" src="scriptFibonacci.js">
-    
-    </script>
-  </body>
-</html>
+        <script type="text/javascript" src="scriptFibonacci.js">
+
+        </script>
+        </body>
+
+        </html>
