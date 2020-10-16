@@ -7,18 +7,24 @@ let interval;
 const allButtons = document.querySelectorAll(".button");
 const header = document.querySelector(".headStyle");
 const inputField = document.querySelector("#inputField");
-const rainbowButtons = document.querySelectorAll(".rainbow");
+const rainbowButton = document.querySelector(".rainbow");
 
-rainbowButtons.forEach((button) => {
-    button.addEventListener("mouseenter", (e) => {
-        button.classList.add("animateButtons");
-    });
+rainbowButton.addEventListener("click", () => {
+    if (!isMadnessRunning) {
+        madness();
+    } else {
+        stopMadness();
+    }
+});
 
-    button.addEventListener("mouseleave", (e) => {
-        if (!isMadnessRunning) {
-            button.classList.remove("animateButtons");
-        }
-    });
+rainbowButton.addEventListener("mouseenter", (e) => {
+    rainbowButton.classList.add("animateButtons");
+});
+
+rainbowButton.addEventListener("mouseleave", (e) => {
+    if (!isMadnessRunning) {
+        rainbowButton.classList.remove("animateButtons");
+    }
 });
 
 const madness = () => {
