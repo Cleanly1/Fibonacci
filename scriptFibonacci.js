@@ -30,6 +30,9 @@ const randomBackground = function() {
     const rgb3 = Math.floor(Math.random() * (255 - 0 + 1)) + 0;
     if (window.scrollY > 500) {
         document.body.style.backgroundColor = `rgb( ${rgb1}, ${rgb2}, ${rgb3})`;
+    } else {
+        document.body.style.backgroundColor = `rgb( 143, 188, 143)`;
     }
 };
+
 window.onscroll = setInterval(randomBackground, 1000);
