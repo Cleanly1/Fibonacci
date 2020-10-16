@@ -6,8 +6,8 @@ $number = filter_var($_GET["number"], FILTER_SANITIZE_NUMBER_INT);
 
 <a class="backButton button" href="/">Want new numbers?</a>
 <div class="form">
-    <button onclick="madness()" class="rainbow">Click to start the rainbow</button>
-    <button onclick="stopMadness()" class="rainbow">Click to stop the rainbow</button>
+    <button onclick="madness()" class="button rainbowButton rainbow">Click to start the rainbow</button>
+    <button onclick="stopMadness()" class="button rainbowButton rainbow">Click to stop the rainbow</button>
 </div>
 <div class="result">
     <?php require __DIR__ . '/post.php'; ?>
