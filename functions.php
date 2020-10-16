@@ -13,6 +13,8 @@ function posting()
 function calculateFib($until)
 {
     $until = filter_var($until, FILTER_SANITIZE_NUMBER_INT);
+    
+    $until = ($until > 1000) ? 1000 : $until; 
 
     if ($until == 1) {
         return "0";
@@ -20,7 +22,7 @@ function calculateFib($until)
         return "0 <br> 1";
     } elseif ($until == 0) {
         return "You pick zero and you get zero";
-    } elseif ($until > 2 && $until <= 1000) {
+    } else {
         $fib = 1;
         $lastFib = 0;
         echo "$lastFib<br>$fib<br>";
@@ -32,17 +34,5 @@ function calculateFib($until)
             $lastFib = $fib;
             $fib = $totalFib;
         };
-    } elseif ($until > 1000) {
-        $fib = 1;
-        $lastFib = 0;
-        echo "$lastFib<br>$fib<br>";
-        for ($i = 0; $i < 1000 - 2; $i++) {
-            $totalFib = $fib + $lastFib;
-
-            echo number_format($totalFib) . "<br>";
-
-            $lastFib = $fib;
-            $fib = $totalFib;
-        };
-    };
+    } 
 };
