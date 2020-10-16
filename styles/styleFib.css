@@ -42,6 +42,7 @@ body {
 .button:hover {
     transform: scale(1.05);
 }
+
 #inputField {
     border: 2px solid darkslategray;
     transition: 400ms ease;
@@ -94,6 +95,18 @@ body {
     margin-top: 20px;
     width: 100vw;
     max-width: 100vw;
+}
+
+.animateBackground {
+    animation-name: backg !important;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.animateText {
+    animation-name: colorT !important;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes backg {
