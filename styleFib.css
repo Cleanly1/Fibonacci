@@ -30,15 +30,16 @@ body {
 }
 
 .button {
-    border: 2px solid darkslategray;
     cursor: pointer;
+    border: 2px solid darkslategray;
     transition: 400ms ease;
     font-family: monospace;
     border-radius: 10px;
+    background-color: white;
 }
 
 .button:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 #inputField {
     border: 2px solid darkslategray;
@@ -59,12 +60,7 @@ body {
 .rainbow {
     margin-top: 10px;
     border: 2px solid darkslategray;
-    font-family: monospace;
-    background-color: white;
-    transition: 400ms ease;
-    box-shadow: 0 6px 20px 0 black;
-    cursor: pointer;
-    border-radius: 10px;
+    box-shadow: 0 3px 5px 0 black;
     padding: 5px;
     width: 190px;
 }
@@ -73,7 +69,8 @@ body {
     animation-name: backg, colorT !important;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    transform: scale(1.1);
+    transform: scale(1.05);
+    box-shadow: 0 3px 10px 0 black;
 }
 
 .backButton {
