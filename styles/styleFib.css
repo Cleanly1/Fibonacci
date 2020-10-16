@@ -68,11 +68,14 @@ body {
 }
 
 .rainbow:hover {
+    transform: scale(1.05);
+    box-shadow: 0 3px 10px 0 black;
+}
+
+.animateButtons {
     animation-name: backg, colorT !important;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    transform: scale(1.05);
-    box-shadow: 0 3px 10px 0 black;
 }
 
 .backButton {
