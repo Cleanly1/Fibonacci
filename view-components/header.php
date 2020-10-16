@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . "/functions.php";
+require __DIR__ . "/../functions.php";
 
 ?>
 
@@ -8,8 +8,8 @@ require __DIR__ . "/functions.php";
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/FibonacciSpiral.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="styleFib.css">
+    <link rel="icon" href="../assets/FibonacciSpiral.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../styles/styleFib.css">
     <title>Start</title>
 </head>
 
