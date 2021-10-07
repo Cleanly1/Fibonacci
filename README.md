@@ -17,4 +17,25 @@ Fibonacci himself was born in 1170 in Pisa and died 1250.
 
 ## Happy Hacktober
 
-I usually comes back to this project during hacktober just to have some fun updating it with things i learnt.
+I usually come back to this project during Hacktober just to have some fun updating it with things I have learnt.
+
+
+## How to install
+
+Clone the repo
+` $ git clone https://github.com/Cleanly1/Fibonacci.git `
+
+Install the frontend package
+` $ npm install `
+
+Start a PHP server
+` $ php -S localhost:8000 `
+
+To build the script and style files run
+` $ npm run build `
+
+For auto-update on style and script files run
+` $ npm run watch `
+
+To get minified files run
+` $ npm run prod `
