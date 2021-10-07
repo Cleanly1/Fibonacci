@@ -1,4 +1,4 @@
-        <script type="text/javascript" src="../scripts/scriptFibonacci.js">
+        <script type="text/javascript" src="../dist/script/script.js">
 
         </script>
         </body>
