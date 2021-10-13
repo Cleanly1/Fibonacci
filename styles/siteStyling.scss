@@ -1,117 +1,126 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 header {
-    align-items: center;
-    box-shadow: 0 4px 8px 0 black;
-    display: flex;
-    height: 4vw;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    padding: 10px;
-    width: 100%;
+	align-items: center;
+	box-shadow: 0 4px 8px 0 black;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	padding: 10px 5px;
+	width: calc(100% - 10px);
 
-    & h1 {
-        margin: 0 10px;
-    }
+	& h1 {
+		margin: 0 10px;
+	}
 }
 
 h1 {
-    margin-block-start: 0.2em;
-    font-size: 3vw;
+	margin-block-start: 0.2em;
+	font-size: 3vw;
 }
 
 body {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    background-color: darkseagreen;
-    font-family: monospace;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	background-color: darkseagreen;
+	font-family: monospace;
+	overflow-x: hidden;
+	padding-bottom: 40px;
 }
 
 .navbar {
-    margin: 0 10px;
+	margin: 0 10px;
 }
 
 .navButton {
-    border: 1px solid black;
-    border-radius: 2px;
-    color: black;
-    padding: 2px;
-    text-decoration: none;
-
-    &:hover{
-        background-color: black;
-        color: white;
-    }
+	border: 1px solid black;
+	border-radius: 2px;
+	color: black;
+	padding: 2px;
+	text-decoration: none;
 }
 
 .form {
-    text-align: center;
+	text-align: center;
+
+	&title {
+		margin: 5px 0;
+	}
 }
 .back {
-    text-decoration: none;
-    text-align: center;
+  text-decoration: none;
+  text-align: center;
 }
 .but {
-    text-align: center;
+  text-align: center;
 }
 
 .button {
-    cursor: pointer;
-    border: 2px solid darkslategray;
-    transition: 400ms ease;
-    font-family: monospace;
-    border-radius: 10px;
-    background-color: white;
-    text-align: center;
-    padding: 4px;
+	cursor: pointer;
+	border: 2px solid green;
+	transition: 400ms ease;
+	font-family: monospace;
+	border-radius: 10px;
+	background-color: white;
+	text-align: center;
+	padding: 4px 8px;
 
-    &:hover{
-        transform: scale(1.05);
-    }
+	&:hover{
+		background-color: black;
+		color: white;
+	}
 }
 
 #inputField {
-    border: 2px solid darkslategray;
-    transition: 400ms ease;
-    font-family: monospace;
+	border: 2px solid green;
+	transition: 400ms ease;
+	font-family: monospace;
+}
+
+.rainbowContainer {
+	bottom: 0;
+	left: 0;
+	margin: 10px;
+	position: fixed;
 }
 
 .rainbow {
-    margin-top: 10px;
-    border: 2px solid darkslategray;
-    box-shadow: 0 3px 5px 0 black;
-    padding: 5px;
-    width: 190px;
+	margin-top: 10px;
+	border: 2px solid green;
+	box-shadow: 0 3px 5px 0 black;
 
-    &:hover{
-        transform: scale(1.05);
-        box-shadow: 0 3px 10px 0 black;
-    }
+	&:hover{
+		box-shadow: 0 3px 10px 0 black;
+	}
 }
 
 .backButton {
-    text-decoration: none;
-    color: black;
-    margin-top: 10px;
-    transition: 400ms ease;
-    box-shadow: 0 6px 20px 0 black;
-    cursor: pointer;
-    border-radius: 10px;
-    padding: 5px;
-    width: 190px;
+	text-decoration: none;
+	color: black;
+	margin-top: 10px;
+	transition: 400ms ease;
+	box-shadow: 0 6px 20px 0 black;
+	cursor: pointer;
+	border-radius: 10px;
+	padding: 5px;
+	width: 190px;
 }
 
 .result {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    text-align: center;
-    margin-top: 20px;
-    width: 100vw;
-    max-width: 100vw;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+	max-width: 100%;
+}
+
+.textScroll {
+	font-size: 6px;
 }
 
