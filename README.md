@@ -19,6 +19,7 @@ Fibonacci himself was born in 1170 in Pisa and died 1250.
 
 I usually come back to this project during Hacktober just to have some fun updating it with things I have learnt.
 
+---
 
 ## How to install
 
