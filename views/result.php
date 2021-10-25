@@ -5,7 +5,7 @@ $result = calculateFib($number);
 
 ?>
 
-<a class="button backButton" href="/views/home.php">Want new numbers?</a>
+<a class="button" href="/views/home.php">Want new numbers?</a>
 
 <div class="result">
 	<?php require __DIR__ . '/../view-components/post.php'; ?>

@@ -1,6 +1,6 @@
 <?php
 
-function posting() {
+function posting(): string {
 	$number = filter_var($_GET["number"], FILTER_SANITIZE_NUMBER_INT);
 	if ($number > 1000) {
 		return "Your requested number is to big, you only get 1000 Fibonacci numbers: <br>";
@@ -9,7 +9,7 @@ function posting() {
 };
 
 
-function calculateFib($until) {
+function calculateFib($until): array {
 
 	$until = ($until > 1000) ? 1000 : (int)$until;
 	$result = [];
