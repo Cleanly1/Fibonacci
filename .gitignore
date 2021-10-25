@@ -3,6 +3,7 @@
 .vscode
 # Files
 package-lock.json
+mix-manifest.json
 # Directories
 /dist
 /node_modules
