@@ -12,24 +12,27 @@ function posting() {
 function calculateFib($until) {
 
 	$until = ($until > 1000) ? 1000 : (int)$until;
+	$result = [];
 
 	if ($until == 1) {
-		return "0";
+		array_push($result, 0);
 	} elseif ($until == 2) {
-		return "0 <br> 1";
+		array_push($result, 0, 1);
 	} elseif ($until == 0) {
-		return "You pick zero and you get zero";
+		array_push($result, "You pick zero and you get zero");
 	} else {
 		$fib = 1;
 		$lastFib = 0;
-		echo "<span class='spans'>$lastFib</span><span class='spans'>$fib</span>";
+		array_push($result, $lastFib, $fib);
+
 		for ($i = 0; $i < $until - 2; $i++) {
 			$totalFib = $fib + $lastFib;
 
-			echo "<span class='spans'>" . number_format($totalFib) . "</span>";
+			array_push($result, number_format($totalFib));
 
 			$lastFib = $fib;
 			$fib = $totalFib;
 		};
 	}
+	return $result;
 };
